@@ -5,7 +5,6 @@ $ember-orange: #dd6a58;
 $white: #fff;
 $large-screen: em(860);
 
-
 .visually-hidden {
   border: 0 !important;
   clip: rect(0 0 0 0) !important;
@@ -24,9 +23,23 @@ $large-screen: em(860);
   background: $ember-orange url("/emberjs-header/header.svg") top center no-repeat;
   background-size: cover;
   color: $white;
-  padding: 1em 0;
+  padding: 1px 0;
+
+  input:focus {
+    border-color: #dd6a58;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.06),0 0 5px rgba(217,87,67,0.7);
+    outline: none;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
 
   .container {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1em;
     @include media($large-screen) {
       display: flex;
     }
