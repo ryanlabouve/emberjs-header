@@ -1,6 +1,15 @@
 # Emberjs-header
 
-This README outlines the details of collaborating on this Ember addon.
+This addon solves on problem. 
+
+"How can I get that sweet sweet Emberjs Website and Guides header in my Emberjs
+app?"
+
+## Usage
+
+`ember install emberjs-header`
+
+then in your templates you can, `{{emberjs-header}}`
 
 ## Installation
 
